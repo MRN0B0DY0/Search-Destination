@@ -1,0 +1,40 @@
+.destiantion-container {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  padding: 50px;
+  padding-left: 100px;
+}
+
+.container-heading {
+  font-family: 'Roboto';
+  margin-left: 50px;
+}
+
+.list-item-container {
+  list-style: none;
+  display: flex;
+  text-align: start;
+  flex-wrap: wrap;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: fit-content;
+  margin-left: 50px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+}
